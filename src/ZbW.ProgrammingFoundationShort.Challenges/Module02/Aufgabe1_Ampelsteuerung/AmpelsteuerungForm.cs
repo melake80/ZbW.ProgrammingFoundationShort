@@ -57,4 +57,9 @@ public partial class AmpelsteuerungForm : Form
     LblMeldung.Text = meldung;
     LblAmpel.BackColor = ampelFarbe;
   }
+
+  private void LblAmpel_Click(object sender, EventArgs e)
+  {
+
+  }
 }
